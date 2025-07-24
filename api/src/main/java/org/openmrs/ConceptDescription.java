@@ -9,10 +9,10 @@
  */
 package org.openmrs;
 
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
 import org.hibernate.envers.Audited;
 
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
 import java.util.Date;
 import java.util.Locale;
 

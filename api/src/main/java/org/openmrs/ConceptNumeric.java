@@ -14,14 +14,13 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
 
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.OneToMany;
+import jakarta.persistence.Table;
 import org.codehaus.jackson.annotate.JsonIgnore;
 import org.hibernate.envers.Audited;
-
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
 
 /**
  * The ConceptNumeric extends upon the Concept object by adding some number range values
